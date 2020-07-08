@@ -11,7 +11,7 @@ var con = mysql.createConnection({
 
 con.connect(function(err) {
   if (err) throw err;
-  console.log("Connected to the database!");
+  console.log("Connected to the database");
 });
 
 const server = http.createServer((req, res) => {
